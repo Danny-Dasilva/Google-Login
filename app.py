@@ -16,8 +16,8 @@ app.debug = True
 
 app.config.update(
   SECRET_KEY             = 'supersecret',
-  GOOGLE_CONSUMER_KEY    = '17298749252-hom1dqsir7o2g31l3pj5c3pkp9lq6qqv.apps.googleusercontent.com',
-  GOOGLE_CONSUMER_SECRET = 'SOeB1k0M4aW2YovBUdTePet2',
+  GOOGLE_CONSUMER_KEY    = '',
+  GOOGLE_CONSUMER_SECRET = 'add key',
   OAUTH_URL              = 'https://accounts.google.com/o/oauth2/auth',
   OAUTH_TOKEN_URL        = 'https://accounts.google.com/o/oauth2/token',
   OAUTH_USER_INFO_URL    = 'https://www.googleapis.com/oauth2/v1/userinfo',
